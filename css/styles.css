@@ -75,8 +75,7 @@ ul{
 }
 .order-button:hover,
 .order-button:active,
-.order-button:focus {
-color: #404BBF;
+.order-button:focus {color: #404BBF;
 }
 
 /*  Переваги компанії */
@@ -104,6 +103,10 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 /* Наша команда */
+.team-section {
+    background: var(--CLOUD, #F4F4FD);
+}
+
 .heading {
 color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -136,5 +139,5 @@ color: var(--NAVY-BLUE, #2E2F42);
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-line-height: 1.17;
+        line-height: 1.17;
 }
