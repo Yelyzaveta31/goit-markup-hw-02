@@ -34,7 +34,6 @@ ul{
         line-height: 1.5;
 }
 .nav-list-item .header-link:hover,
-.nav-list-item .header-link:active,
 .nav-list-item .header-link:focus 
  {
     color: #404BBF;
@@ -51,11 +50,12 @@ ul{
 }
 .adresses-link-item .adresses-link:hover,
 .adresses-link-item .adresses-link:active
-.nav-list-item .header-link:focus { color: #404BBF}
+.nav-list-item .header-link:focus { color:  #404bbf}
 
 /*   Замовити послуги */
 .business-section {
-    background-color:var(--NAVY-BLUE, #2E2F42);
+    background-color:var(--NAVY-BLUE, #2E2F42);}
+    .main-title {
     color: var(--WHITE, #FFF);
         text-align: center;
         font-family: Roboto;
@@ -67,14 +67,18 @@ ul{
 }
 
 .order-button {
-    border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
         cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        letter-spacing: 0.64px;
+        line-height: 1.5; 
 }
 .order-button:hover,
-.order-button:active,
 .order-button:focus {color: #404BBF;
 }
 
@@ -107,6 +111,9 @@ color: var(--NAVY-BLUE, #2E2F42);
     background: var(--CLOUD, #F4F4FD);
 }
 
+.team-list-item {
+    background-color: #FFFFFF;
+}
 .heading {
 color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -116,12 +123,14 @@ color: var(--NAVY-BLUE, #2E2F42);
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-        line-height: 1.1;
-}
+        line-height: 1.11;
+    }
+
 
 /* Футер */
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--NAVY-BLUE, #2E2F42);}
+    .footer-text {
     color: var(--CLOUD, #F4F4FD);
         font-family: Roboto;
         font-size: 16px;
