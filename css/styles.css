@@ -37,10 +37,11 @@ ul{
 .nav-list-item .header-link:focus 
  { color: #404BBF;
 }
-.address-link { font-style: normal;}
+.address-link { font-style: normal;
+    color: #434455;
+}
 
  .adresses-link-item {
-    color: #434455;
         font-family: Roboto,sans-serif;
         font-size: 16px;
         line-height: 24px;
@@ -48,8 +49,8 @@ ul{
         text-decoration: none;
         line-height: 1.5;
 }
-.adresses-link-item .adresses-link:hover { color:  #404bbf}
-.adresses-link-item .adresses-link:focus { color:  #404bbf}
+.adresses-link-item .adresses-link-subtitle:hover { color:  #404bbf}
+.adresses-link-item .adresses-link-subtitle :focus { color:  #404bbf}
 
 /*   Замовити послуги */
 .business-section {
