@@ -48,9 +48,10 @@ ul{
         letter-spacing: 0.32px;
         text-decoration: none;
         line-height: 1.5;
+        color: #434455;
 }
 .adresses-link-item .adresses-link-subtitle:hover { color:  #404bbf}
-.adresses-link-item .adresses-link-subtitle :focus { color:  #404bbf}
+.adresses-link-item .adresses-link-subtitle:focus { color:  #404bbf}
 
 /*   Замовити послуги */
 .business-section {
